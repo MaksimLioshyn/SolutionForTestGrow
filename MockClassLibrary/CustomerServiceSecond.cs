@@ -17,9 +17,9 @@ namespace MockClassLibrary
         public void Create(CustomerDto customerDto)
         {
             Customer customer =
-                new Customer(customerDto.FirstName, customerDto.LastName) {Email = _emailBuilder.From(customerDto)};
+                new Customer(customerDto.FirstName, customerDto.LastName) {MailingAddress = _emailBuilder.From(customerDto)};
 
-            if (customer.Email == null)
+            if (customer.MailingAddress == null)
             {
                 throw new ApplicationException("Email не может быть пустым.");
             }

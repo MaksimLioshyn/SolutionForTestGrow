@@ -54,6 +54,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CustomerServiceFird.cs" />
+    <Compile Include="CustomerServiceMockingProperties.cs" />
     <Compile Include="CustomerServiceSecond.cs" />
     <Compile Include="CustonerForMoq\Address.cs" />
     <Compile Include="CustonerForMoq\Customer.cs" />
@@ -62,10 +63,15 @@
     <Compile Include="CustomerServiceFirst.cs" />
     <Compile Include="CustonerForMoq\IEmailBuilder.cs" />
     <Compile Include="CustonerForMoq\IIdFactory.cs" />
+    <Compile Include="CustonerForMoq\IMailing.cs" />
+    <Compile Include="CustonerForMoq\IWorkstationSettings.cs" />
+    <Compile Include="CustomerServiceEventMocking.cs" />
+    <Compile Include="CustonerForMoq\NotifyEventArgs.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
