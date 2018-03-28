@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibraryForUnitTestingBasics
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibraryForUnitTestingBasicsTestsMSTest", "LibraryForUnitTestingBasicsTests1\LibraryForUnitTestingBasicsTestsMSTest.csproj", "{1A2BCEE3-C8A8-4A2C-AA22-7CFB97060019}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StubClassLibrary", "StubClassLibrary\StubClassLibrary.csproj", "{6EE9AC37-8B71-4820-995D-A1E7BF56C22B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StubClassLibraryTests", "StubClassLibraryTests\StubClassLibraryTests.csproj", "{A3717AB8-F7AC-4684-B33B-2A8744C796C2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{1A2BCEE3-C8A8-4A2C-AA22-7CFB97060019}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1A2BCEE3-C8A8-4A2C-AA22-7CFB97060019}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1A2BCEE3-C8A8-4A2C-AA22-7CFB97060019}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6EE9AC37-8B71-4820-995D-A1E7BF56C22B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EE9AC37-8B71-4820-995D-A1E7BF56C22B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EE9AC37-8B71-4820-995D-A1E7BF56C22B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EE9AC37-8B71-4820-995D-A1E7BF56C22B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3717AB8-F7AC-4684-B33B-2A8744C796C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3717AB8-F7AC-4684-B33B-2A8744C796C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3717AB8-F7AC-4684-B33B-2A8744C796C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3717AB8-F7AC-4684-B33B-2A8744C796C2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
