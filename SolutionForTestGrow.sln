@@ -13,6 +13,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StubClassLibrary", "StubCla
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StubClassLibraryTests", "StubClassLibraryTests\StubClassLibraryTests.csproj", "{A3717AB8-F7AC-4684-B33B-2A8744C796C2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MockClassLibrary", "MockClassLibrary\MockClassLibrary.csproj", "{3766527C-C363-4600-8DF7-086F9C5BC015}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MockClassLibraryTests", "MockClassLibraryTests\MockClassLibraryTests.csproj", "{11CD2D90-DEDF-4940-BCF1-0815A544190D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,14 @@ Global
 		{A3717AB8-F7AC-4684-B33B-2A8744C796C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A3717AB8-F7AC-4684-B33B-2A8744C796C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A3717AB8-F7AC-4684-B33B-2A8744C796C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3766527C-C363-4600-8DF7-086F9C5BC015}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3766527C-C363-4600-8DF7-086F9C5BC015}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3766527C-C363-4600-8DF7-086F9C5BC015}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3766527C-C363-4600-8DF7-086F9C5BC015}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11CD2D90-DEDF-4940-BCF1-0815A544190D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11CD2D90-DEDF-4940-BCF1-0815A544190D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11CD2D90-DEDF-4940-BCF1-0815A544190D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11CD2D90-DEDF-4940-BCF1-0815A544190D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
