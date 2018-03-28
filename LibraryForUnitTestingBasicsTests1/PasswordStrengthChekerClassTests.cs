@@ -1,7 +1,7 @@
 ﻿using LibraryForUnitTestingBasics;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace LibraryForUnitTestingBasicsTests1
+namespace LibraryForUnitTestingBasicsTestsMSTest
 {
     [TestClass]
     public class PasswordStrengthChekerClassTests
